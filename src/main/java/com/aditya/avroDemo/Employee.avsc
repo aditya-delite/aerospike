@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "Employee",
+  "namespace": "com.aditya.avro",
+  "fields": [
+    {"name": "empId", "type": "int"},
+    {"name": "empName", "type": "string"},
+    {"name": "designation", "type": "string"}
+  ]
+}
